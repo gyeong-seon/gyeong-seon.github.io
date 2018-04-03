@@ -1,0 +1,838 @@
+/**********************visual**************************/
+#visual{
+    background-image: url(../images/visual01.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 570px;
+    width: 100%;
+    color:#fff;
+    display: table;
+    overflow: hidden;
+    table-layout: fixed
+}
+#visual .con{
+    display: table-cell;
+    vertical-align: middle;
+}
+#visual .con .sub_tit{
+    font-size: 2.6rem;
+    font-weight: 600;
+    margin-bottom: 25px
+}
+#visual .con .tit{
+    display: inline-block;
+}
+#visual .con .tit .main_tit{
+    margin-bottom: 38px
+}
+#visual .con .tit .icon{
+    position: absolute;
+    right:-55px;top:-80px
+}
+#visual .con .main_desc{
+    line-height: 1.5;
+    margin-bottom: 84px
+}
+#visual .con .date_list{
+    font-size: 1.8rem;
+    width: 100%;
+    text-align: center;
+}
+#visual .con .date_list li{
+    width: 33.33%;
+    float: left;
+    background-color: #fff;
+    height: 61px;
+    line-height: 61px
+}
+#visual .con .date_list li .date{
+    display: inline-block;
+    background-color:#e2282b;
+    width: 40px;
+    height: 27px;
+    line-height: 27px;
+}
+#visual .con .date_list li .desc{
+    display: inline-block;
+    color: #595959
+}
+/***************program*******************/
+#container .program{
+    background-image: url(../images/programBg1.jpg);
+    background-size: 100%;
+    background-position: center;
+    background-size:contain
+}
+#container .program .wrapper>.tit,
+#container .program .desc{
+    font-size: 4rem;
+    font-weight: 500;
+    margin-bottom: 23px;
+    text-align: center
+}
+#container .program .desc{
+    font-size: 2.2rem;
+    margin-bottom: 70px
+}
+#container .program .con{
+    width: 100%
+}
+#container .program .con li{
+    float: left;
+    width:32%;
+    height: 373px;
+    border: 1px solid #c8c8c8;
+    box-sizing: border-box;
+    margin-right:2%;
+    box-shadow: 4px 4px 8px rgba(0,0,0,0.1);
+    background-color: #fff;
+}
+#container .program .con li:last-child{
+    border: 4px solid #e2282b;
+}
+#container .program .con li .sub_tit{
+    font-size: 1.8rem;
+    font-weight: 600;
+}
+#container .program .con li .sub_tit::after{
+    content: '';
+    display: block;
+    background-color: #c8c8c8;
+    width: 33px;
+    height: 2px;
+    margin: 15px 0
+}
+#container .program .con li .tit dt{
+    font-size: 3rem;
+    font-weight: 600;
+    margin-bottom: 14px
+}
+#container .program .con li .tit dd{
+    font-size: 2rem;
+    color:#6a6a6a
+}
+#container .program .con li a{
+    padding-top: 21px;
+    padding-left: 5.5%;
+    height: 373px;
+    display: block;
+    box-sizing: border-box;
+}
+#container .program .con .con1{
+    background-image:url(../images/program_icon1.jpg);
+    background-repeat: no-repeat;
+    background-position: 92% 191px;
+}
+#container .program .con .con2{
+    background-image:url(../images/program_icon2.jpg);
+    background-repeat: no-repeat;
+    background-position: 90% 190px
+}
+#container .program .con .con3{
+    margin-right: 0;
+    background-image:url(../images/program_icon3.jpg);
+    background-repeat: no-repeat;
+    background-position: 90% 199px
+}
+/**************인트로*********************/
+#container .intro{
+    height: 380px;
+    background-image:url(../images/intro_bg.jpg);
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    color:#fff;
+    text-align: center;
+    width: 100%;
+    display: table
+}
+#container .intro .con {
+    display: table-cell;
+    vertical-align: middle
+}
+#container .intro .con .tit{
+    font-size: 4rem;
+    margin-bottom: 66px;
+    line-height: 1.5;
+    margin-top: -13px;
+}
+#container .intro .con .btn{
+    font-size: 2.5rem;
+    border: 1px solid #fff;
+    width: 277px;
+    height: 64px;
+    margin: 0 auto;
+    line-height: 64px
+}
+#container .intro .con .btn a{
+    display: block;
+    background-color: rgba(0,0,0,0.4);
+}
+/**************shortcut******************/
+#container .shortcut .box{
+    overflow: hidden;
+    width: 100%
+}
+#container .shortcut .box li{
+    width: 32%;
+    height: 433px;
+    float: left;
+    margin-right: 2%;
+    border: 1px solid #c8c8c8;
+    position: relative;
+    box-sizing: border-box;
+    overflow: hidden
+}
+#container .shortcut .box li a{
+    display:block;
+    height: 433px;
+}
+#container .shortcut .box .box3{
+    margin-right: 0
+}
+#container .shortcut .box li a .photo{
+    transition: all 0.5s;
+    background-position:center ;
+    background-size: cover;
+    width: 100%;
+    height: 242px;
+    background-position: center
+}
+#container .shortcut .box li:hover a .photo{
+    transform: scale(1.1)
+}
+#container .shortcut .box li a .photo1 {
+    background-image: url(../images/box1_img.jpg)
+}
+#container .shortcut .box li a .photo2 {
+    background-image: url(../images/box2_img.jpg)
+}
+#container .shortcut .box li a .photo3 {
+    background-image: url(../images/box3_img.jpg)
+}
+#container .shortcut .box li a .icon{
+    position: absolute;
+    top:204px;
+    left: 6.7%;
+    background-color: #fff;
+    width: 76px;height: 76px;
+    border-radius: 50%;
+    box-shadow: 5px 3px 7px rgba(0,0,0,0.2) 
+}
+#container .shortcut .box .box1 a .icon img{
+    margin-left: 20px;
+    margin-top: 19px;
+    width: 35px;
+}
+#container .shortcut .box .box2 a .icon img{
+    margin-left: 18px;
+    margin-top: 15px;
+    width: 41px;
+}
+#container .shortcut .box .box3 a .icon img{
+    margin-left: 18px;
+    margin-top: 18px;
+    width: 45px;
+}
+#container .shortcut .box li a .text{
+    margin-left: 6.7%;
+    color:#6a6a6a;
+    display: inline-block;
+    height: 190px;
+    display: table
+}
+#container .shortcut .box li a .table{
+    display: table-cell;
+    vertical-align: middle
+}
+#container .shortcut .box li a .text .tit{
+    font-size: 2.8rem;
+    font-weight: 500;
+    color:#595959;
+}
+#container .shortcut .box li a .text .tit .table{
+    display: table-cell;
+    vertical-align: middle
+}
+#container .shortcut .box li a .text .desc{
+    margin-top: 15px;
+    margin-bottom: 20px;
+    font-size: 1.7rem;
+    margin-left: 2px
+}
+#container .shortcut .box li a .text .btn{
+    font-size: 1.5rem;
+    background-image: url(../images/box_arr.gif);
+    background-repeat: no-repeat;
+    background-position: 65px 2px;
+    display: inline-block;
+    padding-right: 25px
+}
+/*************news_notic****************/
+#container .con4 .tit{
+    font-size: 3rem;
+    margin-top: 18px;
+    margin-bottom: 33px;
+    float: left;
+}
+#container .con4 .btn{
+    float: right;
+    margin-top: 20px
+}
+#container .con4 .btn:hover{
+    float: right;
+    margin-top: 20px
+}
+#container .con4 .news::before,
+#container .con4 .notice::before{
+    content: "";
+    width: 100%;
+    height: 2px;
+    background-color: #dcdcdc;
+    display: block;
+    position: relative
+}
+#container .con4 .news{
+    width:57%;
+    float: left;
+}
+#container .con4 .news .bottom a{
+    width: 100%;
+    display: inline-block
+}
+#container .con4 .news .bottom a .image{
+    float: left;
+    width: 41%;height: 164px;
+    border: 1px solid #c8c8c8;
+    box-sizing: border-box;
+    overflow: hidden
+}
+#container .con4 .news .bottom a .image img{
+    display: block;
+    width: 100%
+}
+#container .con4 .news .bottom a .text{
+    float: right;
+    width: 55%
+}
+#container .con4 .news .bottom a .text .stit{
+    font-weight: 400;
+    font-size: 1.9rem;
+    line-height: 1.4;
+    margin-top: -5px;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+#container .con4 .news .bottom a .text .desc{
+    margin-top:17px;
+    margin-bottom:25px;
+    font-size: 1.5rem;
+    line-height: 1.4;
+    font-weight: 500;
+    color:#878787;
+    height: 63px;
+    overflow: hidden
+}
+#container .con4 .news .bottom a .text .date{
+    font-size: 1.5rem;
+    color:#878787
+}
+#container .con4 .notice{
+    width: 40%;
+    float: right;
+    font-size: 1.5rem;
+}
+#container .con4 .notice .bottom ul li a .desc{
+    float: left;
+    width: 90%;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    margin-bottom: 18px;
+    overflow: hidden;
+    line-height: 1.3;
+}
+#container .con4 .notice .bottom ul li:last-child a .desc{
+    margin-bottom: 0
+}
+#container .con4 .notice .bottom ul li a .date{
+    float: right;
+}
+
+
+/**********pc*********/
+@media screen and (max-width: 1200px) {
+    .wrapper{
+        width: 96%;
+        margin: 0 auto
+    }
+    #visual .con .date_list{
+        font-size: 1.6rem;
+    }
+    #container .program{
+        background-image: url(../images/programBg2.jpg);
+        background-size: cover
+    }
+    #footer .bottom .logo{
+        width: 100%
+    }
+}
+@media screen and (max-width:1150px) and (min-width: 1023px) {
+    #header .header_con .gnb_bar .gnb>ul .gnb_menu{
+        margin-right: 25px;
+    }
+}
+
+/******************피시-테블렛******************/
+@media screen and (max-width: 1024px) {
+    html{
+        font-size:50%;
+    }
+    #header{
+        height: 70px;
+        width: 100%
+    }
+    #header .top_bar{
+        display: none
+    }
+    #header .header_con .gnb_bar .gnb{
+        display: none
+    }
+    #header .header_con .logo{
+        padding: 15px 0;
+    }
+    #header .header_con .gnb_bar .gnb_btn{
+        margin-top: 24px;
+    }
+    #visual{
+        background-image: url(../images/visual_01_small.jpg);
+        height: 500px
+    }
+    #visual .con{
+        text-align: center
+    }
+    #visual .con .tit .sub_tit{
+        margin-bottom: 20px
+    }
+    #visual .con .tit .main_tit{
+        margin-bottom: 26px;
+    }
+    #visual .con .tit .main_tit img{
+        width: 580px
+    }
+    #visual .con .tit .icon{
+        right:-50px;top:-65px;
+    }
+    #visual .con .tit .icon img{
+        width: 80%
+    }
+    #visual .con .main_desc{
+        margin-bottom: 50px
+    }
+    #visual .con .date_list{
+        font-size:1.9rem;
+    }
+    #visual .con .date_list li{
+        width: 50%;
+        float:none;
+        height: 45px;
+        line-height: 45px;
+        margin: auto
+    }
+    #container .program .con li{
+        height: 323px;
+        background-size: 120px
+    }
+    #container .program .con li a{
+        height: 323px;
+    }
+    #container .program .con .con1{
+        background-position: 90% 170px;
+    }
+    #container .program .con .con2{
+        background-repeat: no-repeat;
+        background-position: 90% 170px
+    }
+    #container .program .con .con3{
+        background-repeat: no-repeat;
+        background-position: 90% 179px
+    }
+    #container .intro{
+        background-attachment: scroll
+    }
+    #container .shortcut .box li{
+        height: 363px;
+    }
+    #container .shortcut .box li a .photo{
+        height: 192px;
+    }
+    #container .shortcut .box li a .icon{
+        top:155px;
+        left: 5%
+    }
+    #container .shortcut .box li a .text{
+        margin-left: 5%;
+        height: 170px
+    }
+    #container .shortcut .box li a .text .btn{
+        background-position: 55px 2px;
+        padding-right: 30px
+    }
+    #container .con4 .news .bottom a .text .stit{
+        font-size: 2.3rem;
+        /***********************임시*************************/
+        overflow: hidden;
+        height: 46px
+    }
+    #container .con4 .news .bottom a .text .desc{
+        margin-top:14px;
+        margin-bottom:20px;
+        font-size: 1.9rem;
+        height: auto
+    }
+    #container .con4 .news .bottom a .text .date,
+    #container .con4 .notice .bottom ul li a .desc,
+    #container .con4 .notice .bottom ul li a .date{
+        font-size:1.9rem;
+    }
+    #container .con4 .notice .bottom ul li a .desc{
+        width: 80%
+    }
+    #footer .top .wrapper .logo{
+        float: left;
+        padding-top:16px;
+        width:27%
+    }
+    #footer .top .wrapper .logo .logo1{
+        margin-right: 7%;
+        width: 46%
+    }
+    #footer .top .wrapper .logo .logo2{
+        padding-top:10px;
+        width: 46%
+    }
+    #footer .top .wrapper .logo li img{
+        width: 100%
+    }
+    #footer .foot_desc{
+        font-size: 1.6rem;
+    }
+    #footer .foot_desc .information li{
+        margin-bottom: 8px
+    }
+    #footer .bottom .foot_desc .foot_gnb{
+        line-height: 1.5;
+        margin-bottom: 13px
+    }
+    
+}
+/*************테블렛-스마트폰*********/
+@media screen and (max-width: 768px) {
+    html{
+        font-size: 48%;
+    }
+    #visual{
+        height: 400px;
+    }
+    #visual .con .tit .sub_tit{
+        margin-bottom: 16px
+    }
+    #visual .con .tit .main_tit{
+        margin-bottom: 20px;
+    }
+    #visual .con .tit .main_tit img{
+        width: 500px
+    }
+    #visual .con .tit .icon{
+        right:-52px;top:-50px;
+    }
+    #visual .con .tit .icon img{
+        width: 61%
+    }
+    #visual .con .main_desc{
+        margin-bottom: 30px
+    }
+    #visual .con .date_list li{
+        width: 65%;
+        height: 35px;
+        line-height: 35px
+    }
+    #visual .con .date_list li .date{
+        width: 32px;
+        height: 25px;
+        line-height: 25px
+    }
+    #container .program .con li{
+        width:100%;
+        height: 200px;
+        margin-bottom: 25px;
+        display: table
+    }
+    #container .program .con li a{
+        display: table-cell;
+        vertical-align: middle;
+        padding-left: 3.5%;
+        height: 200px;
+        padding-top: 0;
+    }
+    #container .program .con li .sub_tit{
+        font-size: 1.9rem;
+    }
+    #container .program .con li .sub_tit::after{
+        margin-top: 15px;
+        margin-bottom: 12px;
+    }
+    #container .program .con li .tit dt{
+       font-size: 3.8rem;
+        font-weight: 600;
+        margin-bottom: 15px
+    }
+    #container .program .con li .tit dd{
+        font-size: 2.4rem;
+        margin-left: 2px
+    }
+    #container .program .con .con1{
+        background-position: 92% center;
+    }
+    #container .program .con .con2{
+        background-position: 90% center
+    }
+    #container .program .con .con3{
+        margin-right: 0;
+        background-position: 90% center
+    }
+    #container .intro .con .btn{
+        width: 227px;
+        height: 54px;;
+        line-height: 54px
+    }
+    #container .shortcut .box li{
+        width: 100%;
+        height: 310px;
+        margin-bottom: 30px;
+    }
+    #container .shortcut .box li a{
+        display: inline-block;
+        width: 100%
+    }
+    #container .shortcut .box .box3{
+        margin-bottom: 0
+    }
+    #container .shortcut .box li:hover a .photo{
+        transform: none
+    }
+    #container .shortcut .box li a .icon{
+        position:static;
+        background-color: rgba(255,255,255,0);
+        border-radius:0;
+        box-shadow: none;
+        float: right;
+        margin-right: 3%;
+    }
+    #container .shortcut .box .box1 a .icon img{
+        margin-left:0;
+        margin-top: 24px;
+        width: 80%;
+    }
+    #container .shortcut .box .box2 a .icon img{
+        margin-left: 0;
+        margin-top: 24px;
+        width: 87%;
+    }
+    #container .shortcut .box .box3 a .icon img{
+        margin-left: 0;
+        margin-top: 26px;
+        width: 90%;
+    }
+    #container .shortcut .box li a .text{
+        margin-left: 3%;
+        float: left;
+        width:70%;
+        height: 118px
+    }
+    #container .shortcut .box li a .text .desc{
+        margin-top: 12px;
+        margin-bottom: 20px;
+        font-size: 2rem
+    }
+    #container .shortcut .box li a .text .btn{
+        background-position: 55px 3px;
+        font-size:1.8rem
+    }
+    #container .con4 .news{
+        width:100%;
+        margin-bottom: 54px
+    }
+    #container .con4 .news .bottom a .text .stit{
+        height: auto;
+    }
+    #container .con4 .notice{
+        width:100%;
+    }
+    #footer .top{
+        height: auto
+    }
+    #footer .top .wrapper .logo{
+        display: none
+    }
+    #footer .top .wrapper .desc{
+        float: left;
+        font-size: 1.9rem;
+        line-height: 1.5;
+        padding: 15px 0
+    }
+}
+@media screen and (max-width: 575px){
+    #visual .con .tit .main_tit img{
+        width: 400px
+    }
+    #visual .con .tit .icon{
+        right:-54px;top:-32px;
+    }
+    #visual .con .main_desc{
+        font-size: 1.9rem
+    }
+    #container .con4 .news .bottom a .image{
+        display: none
+    }
+    #container .con4 .news .bottom a .text{
+        width: 100%
+    }
+} 
+/*********스마트폰*********/
+@media screen and (max-width: 480px) {
+    html{
+        font-size: 43%
+    }
+    #visual{
+        background-image: url(../images/visual_01_smaller.jpg);
+        height: 350px
+    }
+    #visual .con .tit .main_tit img{
+        width: 350px
+    }
+    #visual .con .tit .icon{
+        right:-53px;top:-20px;
+    }
+    #visual .con .tit .icon img{
+        width: 42%
+    }
+    #visual .con .date_list li{
+        width: 70%;
+    }
+    #visual .con .date_list li .date{
+        width: 32px;
+        height: 18px;
+        line-height: 18px
+    }
+    #container .program .con .con1{
+        background-size: 23%;
+        background-position: 96% center
+    }
+    #container .program .con .con2{
+        background-size: 23%;
+        background-position: 96% center
+    }
+    #container .program .con .con3{
+        background-size: 23%;
+        background-position: 96% center
+    }
+    ntainer .shortcut .box li a .text .desc{
+        margin-top: 12px;
+        margin-bottom:17px;
+        font-size: 2.1rem;
+    }
+    #container .shortcut .box li a .text .btn{
+        background-position: 53px 3px;
+    }
+    #footer .sns{
+        left: 0;
+        top:210px;
+        margin-bottom: 35px
+    }
+}
+@media screen and (max-width:400px) {
+    html{
+        font-size: 38%
+    }
+    #header .header_con .logo{
+        width:60%;
+        padding: 21px 0;
+    }
+    #header .header_con .logo img{
+        width:100%;
+        display: block
+    }
+    #visual{
+        height: 380px;
+    }
+    #visual .con .tit .main_tit img{
+        width: 280px
+    }
+    #visual .con .tit .icon{
+        right:-55px;top:-12px;
+    }
+    #visual .con .tit .icon img{
+        width: 35%
+    }
+    #visual .con .date_list li{
+        width:85%;
+    }
+    #visual .con .date_list li .date{
+        width: 30px;
+        height: 25px;
+        line-height: 25px
+    }
+    #container .program .con li{
+        height: 150px
+    }
+    #container .program .con li a{
+        height: 150px;
+    }
+    #container .shortcut .box li a .icon{
+        margin-right: -3%;
+    }
+    #container .shortcut .box .box1 a .icon img{
+        margin-top: 29px;
+        width: 69%;
+    }
+    #container .shortcut .box .box2 a .icon img{
+        margin-top: 29px;
+        width: 76%;
+    }
+    #container .shortcut .box .box3 a .icon img{
+        margin-top: 28px;
+        width: 79%;
+    }
+    #container .shortcut .box li a .text .btn{
+        background-position: 48px 2px;
+        background-size:14px
+     }
+    #footer .sns{
+        left: 0;
+        top:210px;
+        margin-bottom: 35px
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

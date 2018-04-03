@@ -1,0 +1,254 @@
+
+/**********pc*********/
+@media screen and (max-width: 1200px) {
+    .wrapper{
+        width: 96%;
+        margin: 0 auto
+    }
+    #footer .bottom .logo{
+        width: 100%
+    }
+}
+@media screen and (max-width:1150px) and (min-width: 1023px) {
+    #header .header_con .gnb_bar .gnb>ul .gnb_menu{
+        margin-right: 25px;
+    }
+}
+
+/************피시-테블렛************/
+@media screen and (max-width: 1024px) {
+    html{
+        font-size:50%;
+    }
+    #header{
+        height: 70px;
+        width: 100%
+    }
+    #header .top_bar{
+        display: none
+    }
+    #header .header_con .gnb_bar .gnb{
+        display: none
+    }
+    #header .header_con .logo{
+        padding: 15px 0;
+    }
+    #header .header_con .gnb_bar .gnb_btn{
+        margin-top: 24px;
+    }
+    #footer .top .wrapper .logo{
+        float: left;
+        padding-top:16px;
+        width:27%
+    }
+    #footer .top .wrapper .logo .logo1{
+        margin-right: 7%;
+        width: 46%
+    }
+    #footer .top .wrapper .logo .logo2{
+        padding-top:10px;
+        width: 46%
+    }
+    #footer .top .wrapper .logo li img{
+        width: 100%
+    }
+    #footer .bottom .foot_desc{
+        font-size: 1.5rem;
+    }
+    #footer .bottom .foot_desc li{
+        line-height: 1.3;
+    }
+    #footer .bottom .foot_desc .information li{
+        margin-bottom: 12px
+    }
+    #footer .bottom .foot_desc .information li{
+        margin-bottom: 12px
+    }
+}
+/*************테블렛-스마트폰*********/
+@media screen and (max-width: 768px) {
+    html{
+        font-size: 48%;
+    }
+    #visual{
+        height: 400px;
+    }
+    #visual .con .main_tit{
+        top:25px;
+    }
+    #visual .con .main_tit img{
+        width: 500px
+    }
+    #visual .con .sub_tit{
+        top:45px;
+    }
+    #visual .con .main_desc{
+        top:155px;
+        font-size: 1.9rem;
+        line-height: 1.8
+    }
+    #visual .con .date{
+        top:240px;
+        font-size: 1.7rem;
+        width:65%
+    }
+    #container .program .con li{
+        width:100%;
+        height: 200px;
+        margin-bottom: 25px
+    }
+    #container .program .con li{
+        display: table
+    }
+    #container .program .con li a{
+        display: table-cell;
+        vertical-align: middle;
+        padding-left: 3.5%;
+        height: 200px;
+        padding-top: 0;
+    }
+    #container .program .con li .sub_tit{
+        font-size: 1.9rem;
+    }
+    #container .program .con li .sub_tit::after{
+        margin-top: 15px;
+        margin-bottom: 12px;
+    }
+    #container .program .con li .tit dt{
+       font-size: 3.8rem;
+        font-weight: 600;
+        margin-bottom: 15px
+    }
+    #container .program .con li .tit dd{
+        font-size: 2.4rem;
+        margin-left: 2px
+    }
+    #container .program .con .con1{
+        background-position: 92% 34px;
+    }
+    #container .program .con .con2{
+        background-position: 90% 41px
+    }
+    #container .program .con .con3{
+        margin-right: 0;
+        background-position: 90% 45px
+    }
+    #container .intro .con .btn{
+        width: 227px;
+        height: 54px;;
+        line-height: 54px
+    }
+    #container .shortcut .box li{
+        width: 100%;
+        height: 310px;
+        margin-bottom: 30px;
+    }
+    #container .shortcut .box li a{
+        display: inline-block;
+        width: 100%
+    }
+    #container .shortcut .box .box3{
+        margin-bottom: 0
+    }
+    #container .shortcut .box li:hover a .photo{
+        transform: none
+    }
+    #container .shortcut .box li a .icon{
+        position:static;
+        background-color: rgba(255,255,255,0);
+        border-radius:0;
+        box-shadow: none;
+        float: right;
+        margin-right: 3%
+    }
+    #container .shortcut .box .box1 a .icon img{
+        margin-left: 0;
+        margin-top: 24px;
+        width: 60px;
+    }
+    #container .shortcut .box .box2 a .icon img{
+        margin-left: 0;
+        margin-top: 24px;
+        width: 66px;
+    }
+    #container .shortcut .box .box3 a .icon img{
+        margin-left: 0;
+        margin-top: 26px;
+        width: 70px;
+    }
+    #container .shortcut .box li a .text{
+        padding-top:17px;
+        margin-left: 3%;
+        float: left;
+        width:65%;
+    }
+    #container .shortcut .box li a .text .desc{
+        margin-top: 12px;
+        margin-bottom: 20px;
+        font-size: 1.9rem
+    }
+    #container .shortcut .box li a .text .btn{
+        background-position: 50px 3px;
+        background-size: 13px
+    }
+    #container .con4 .news{
+        width:100%;
+        margin-bottom: 54px
+    }
+    #container .con4 .news .bottom a .text .stit{
+        height: auto;
+    }
+    #container .con4 .notice{
+        width:100%;
+    }
+    #footer .top{
+        height: auto
+    }
+    #footer .top .wrapper .logo{
+        display: none
+    }
+    #footer .top .wrapper .desc{
+        float: left;
+        font-size: 1.7rem;
+        line-height: 1.5;
+        padding: 15px 0
+    }
+}
+@media screen and (max-width: 550px){
+    #visual .con .main_tit{
+        top:40px;
+    }
+    #visual .con .main_tit img{
+        width: 440px
+    }
+    #container .con4 .news .bottom a .image{
+        display: none
+    }
+    #container .con4 .news .bottom a .text{
+        width: 100%
+    }
+} 
+/*********스마트폰*********/
+@media screen and (max-width: 480px) {
+    html{
+        font-size: 47%
+    }
+    #visual{
+        background-image: url(../images/visual_01_smaller.jpg);
+        height: 400px;
+    }
+    #visual .con .main_tit{
+        top:35px;
+    }
+    #visual .con .main_tit img{
+        width: 420px
+    }
+    #visual .con .date{
+        width: 80%
+    }
+    #footer .sns{
+        left: 0;
+        top:210px;
+        margin-bottom: 35px
+    }
+}
