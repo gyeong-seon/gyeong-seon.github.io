@@ -49,7 +49,7 @@
 #container .tab_list{
     font-size: 1.8rem;
     margin-top:52px;
-    margin-bottom: 70px;
+    margin-bottom: 90px;
     font-weight: 600;
     color: #3b3b3b;
     height: 56px;
@@ -71,18 +71,34 @@
     color: #e2282b;
     border-bottom: 2px solid #e2282b
 }
-#container .content{
+#container .tab_content .content{
     width: 100%;
-    display: none
+    /*display: none;*/
+    font-size: 1.6rem
 }
-#container .content img{
-    width: 100%;
-    display: block
+#container .tab_content .content_intro{
+    background-image: url(../images/intro_images/children01.jpg);
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    background-size: 30%
 }
-
-
-
-
+#container .tab_content .content_intro dl{
+    margin-bottom: 60px;
+    width: 69%
+}
+#container .tab_content .content_intro .desc4{
+    margin-bottom:20px;
+    width: 71%;
+    padding-bottom: 80px;
+}
+#container .tab_content .content_intro dl dt{
+    font-size: 2.2rem;
+    font-weight: 600;
+    margin-bottom: 23px
+}
+#container .tab_content .content_intro dl dd{
+    line-height: 1.4
+}
 
 
 
@@ -137,6 +153,29 @@
     #header .header_con .gnb_bar .gnb_btn{
         margin-top: 24px;
     }
+    #container .tab_content{
+        text-align: center;
+    }
+    #container .tab_list{
+        margin-top:32px;
+        margin-bottom: 70px;
+        font-weight: 600;
+        color: #3b3b3b;
+        height: 56px;
+    }
+    #container .tab_content .content_intro dl{
+        width: 100%;
+        margin-bottom: 40px
+    }
+    #container .tab_content .content_intro .desc4{
+        width: 100%;
+        padding-bottom: 320px
+    }
+    #container .tab_content .content_intro{
+        background-position: bottom;
+        background-size: 200px
+    }
+    
     #footer .top .wrapper .logo{
         float: left;
         padding-top:16px;
@@ -172,7 +211,7 @@
         font-size: 48%;
     }
     #visual{
-        height: 300px;
+        height: 250px;
     }
     #footer .top{
         height: auto
@@ -187,17 +226,10 @@
         padding: 15px 0
     }
 }
-@media screen and (max-width: 550px){
-    
-} 
 /*********스마트폰*********/
 @media screen and (max-width: 480px) {
     html{
-        font-size: 47%;
-        background-color: aquamarine
-    }
-    #visual{
-        height: 400px;
+        font-size: 43%;
     }
     #footer .sns{
         left: 0;
@@ -205,3 +237,55 @@
         margin-bottom: 35px
     }
 }
+@media screen and (max-width:400px) {
+    html{
+        font-size: 38%
+    }
+    #header .header_con .logo{
+        width:60%;
+        padding: 21px 0;
+    }
+    #header .header_con .logo img{
+        width:100%;
+        display: block
+    }
+    #visual .con .tit .main_tit img{
+        width: 260px
+    }
+    #visual .con .tit .icon{
+        right:-55px;top:-32px;
+    }
+    #visual .con .tit .icon img{
+        width: 35%
+    }
+    #visual .con .date_list li{
+        width:85%;
+    }
+    #visual .con .date_list li .date{
+        width: 30px;
+        height: 25px;
+        line-height: 25px
+    }
+    #footer .sns{
+        left: 0;
+        top:210px;
+        margin-bottom: 35px
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
