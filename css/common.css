@@ -130,7 +130,7 @@ body{
     width: 100%
 }
 #header .header_con .gnb_bar .gnb>ul>li .smenu li:hover>a{
-    color:#e2282b
+    color:#c3c3c3
 }
 #header .header_con .gnb_bar .gnb_btn{
     float: right;
