@@ -14,5 +14,6 @@ $(document).ready(function(){
             $sMenu.hide()
             $(this).toggleClass('x')
         }
+    
 })
 
